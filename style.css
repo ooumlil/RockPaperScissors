@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 1%;
+  margin: 1%;
+}
+
+h1 {
+  border: 1px solid white;
+  text-align: center;
+}
+
+.score {
+  display: grid;
+  text-align: center;
+  padding: 5%;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+}
+
+#player-box {
+  border: 1px solid white;
+  padding: 2%;
+}
+
+#computer-box {
+  border: 1px solid white;
+  padding: 2%;
+}
+
+#player-score {
+  padding: 10%;
+  border: 1px solid white;
+}
+
+#computer-score {
+  padding: 10%;
+  border: 1px solid white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#rock {
+    background-color: grey;
+    font-size: 100px;
+}
+
+#paper {
+    background-color: grey;
+    font-size: 100px;
+}
+
+#scissors {
+    background-color: grey;
+    font-size: 100px;
+}
